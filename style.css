@@ -1,0 +1,402 @@
+@font-face {
+    font-family: "Muller Bold";
+    font-display: swap;
+    src: url(/fonts/MullerBold.woff) format("woff"),
+        url(/fonts/MullerBold.woff2) format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Muller Regular";
+    src: url(/fonts/MullerRegular.woff) format("woff"),
+        url(/fonts/MullerRegular.woff2) format("woff2");
+    font-style: normal;
+}
+
+.first-screen {
+    background-image: url(img/background.jpg);
+    height: 800px;
+    background-size: cover;
+    position: relative;
+
+}
+
+.fox {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 15px;
+    justify-content: space-between;
+    height: 58px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.logo {
+    display: flex;
+    width: 250px;
+    height: 58px;
+
+}
+
+.dantist {
+    font-family: "Russo one";
+    color: #46B1DE;
+    font-size: 25px;
+
+}
+
+.text {
+
+    display: grid;
+    color: black;
+    font-size: 20px;
+    max-width: 301.5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.phone {
+    max-height: 58px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#phone1 {
+    font-size: 20px;
+}
+
+#text1 {
+    display: inline-grid;
+
+}
+
+.all {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+
+
+}
+
+h1 {
+    font-family: "Russo one";
+    width: 600px;
+    padding-top: 150px;
+    overflow-y: auto;
+
+}
+
+b {
+    font-size: 50px;
+}
+
+.br {
+    color: #46B1DE;
+    font-size: 50px;
+}
+
+.br2 {
+
+    font-family: "Muller Bold";
+    overflow-y: auto;
+    width: 600px;
+    font-size: 20px;
+}
+
+#call {
+    display: inline-block;
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #46B1DE;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.button {
+    display: flex;
+    margin-left: 25px;
+    padding-top: 50px;
+
+}
+
+#servises {
+    display: inline-block;
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    color: #46B1DE;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.none {
+    visibility: hidden;
+    width: 100px;
+}
+
+.big {
+    display: flex;
+    border: 1px solid black;
+    padding-right: 15px;
+    background-color: white;
+    padding-left: 20px;
+    position: relative;
+    z-index: 2;
+    height: 97px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.number {
+    font-family: "Muller Bold";
+    display: flex;
+    color: #46B1DE;
+    font-size: 70px;
+    padding-top: 20px;
+
+}
+
+.text2 {
+    font-family: "Muller Regular";
+    display: flex;
+    font-size: 15px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.text3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 97px;
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 120px;
+    gap: 25px;
+
+
+}
+
+.text4 {
+    font-family: "Muller Regular";
+    display: flex;
+    overflow-y: auto;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.lady {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    z-index: 1;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: "Russo one";
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.color {
+    color: #46B1DE;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 140px;
+    width: 270px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 4px;
+    margin-bottom: 15px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 140px;
+    width: 270px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.thre {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 140px;
+    width: 270px;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.oll {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.grid {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.grid2 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.grid3 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.border {
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: #9bc4e2;
+
+}
+
+.number2 {
+    font-family: "Muller Bold";
+    font-weight: bold;
+    color: #46B1DE;
+    display: flex;
+    font-size: 40px;
+    width: 40px;
+}
+
+.head {
+    font-family: "Muller Bold";
+    font-weight: bold;
+    color: #46B1DE;
+    position: relative;
+    display: flex;
+    left: 60px;
+    width: 230px;
+    bottom: 40px;
+}
+
+.text0 {
+    padding-top: 10px;
+    font-weight: normal;
+    font-family: "Muller Regular";
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+
+footer {
+    background: linear-gradient(to left, #00bfff, #d4ecff);
+    padding-top: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+}
+
+.dantist1 {
+    position: relative;
+    left: 60px;
+    bottom: 55px;
+    font-size: 30px;
+}
+
+.col-1 {
+    font-family: "Muller Regular";
+    padding-bottom: 15px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.time {
+    position: relative;
+    left: 170px;
+    bottom: 110px;
+}
+
+.col-3 {
+    font-family: "Muller Regular";
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 45%;
+}
+
+#text2 {
+    padding-bottom: 20px;
+}
+
+h3 {
+    padding-bottom: -10px;
+    font-size: 25px;
+}
+
+#tooh {
+    height: 60px;
+    width: 60px;
+}
+
+#width {
+    position: relative;
+    font-size: 17px;
+    color: white;
+    bottom: 23px;
+}
+
+#icons {
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
